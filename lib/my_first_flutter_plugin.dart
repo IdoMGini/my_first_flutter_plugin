@@ -10,4 +10,16 @@ class MyFirstFlutterPlugin {
     final String version = await _channel.invokeMethod('getPlatformVersion');
     return version;
   }
+
+  static Future<String> getPokemonName() async {
+    final String result = await _channel.invokeMethod('getPokemonName');
+    return result;
+  }
+
+  static Future<bool> isPokemonShiny(String name) async {
+    dynamic arguments = {'name': name};
+
+    final bool result = await _channel.invokeMethod('getIsShiny', arguments);
+    return result;
+  }
 }

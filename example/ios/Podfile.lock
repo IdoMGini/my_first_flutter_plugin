@@ -1,11 +1,17 @@
 PODS:
+  - Alamofire (4.9.1)
   - Flutter (1.0.0)
-  - my_first_flutter_plugin (0.0.1):
+  - my_first_flutter_plugin (0.0.2):
+    - Alamofire
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - my_first_flutter_plugin (from `.symlinks/plugins/my_first_flutter_plugin/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   Flutter:
@@ -14,8 +20,9 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/my_first_flutter_plugin/ios"
 
 SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  my_first_flutter_plugin: 469a5bc7c5dbdb2a22195a9204df9e54802f1453
+  my_first_flutter_plugin: 8b1554b1e4d707ba040181dfeae126f6bb880d31
 
 PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
 
